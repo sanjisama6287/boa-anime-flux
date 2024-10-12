@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ 𝐎ᴡɴᴇʀ : <a href='https://t.me/ZoroSan110'>𝐃ᴀᴛᴛᴇʙᴀʏᴏ</a>\n○ 𝐀ɴɪᴍᴇ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Flux'>𝐀ɴɪᴍᴇ 𝐅ʟᴜx</a>\n○ 𝐎ɴɢᴏɪɴɢ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/Ongoing_Anime_Flux'>𝐎ɴɢᴏɪɴɢ 𝐅ʟᴜx</a>\n○ 𝐀ɴɪᴍᴇ 𝐂ʜᴀᴛ : <a href='https://t.me/+pFq16XDLXVM1Yzll'>𝐀ɴɪᴍᴇ 𝐂ʜᴀᴛ 𝐅ʟᴜx</a></b>",
+            text = f"<b>○ 𝐎ᴡɴᴇʀ : <a href='https://t.me/ZoroSan110'>𝐙ᴏʀᴏsᴀɴ</a>\n○ 𝐀ɴɪᴍᴇ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Flux'>𝐀ɴɪᴍᴇ 𝐅ʟᴜx</a>\n○ 𝐎ɴɢᴏɪɴɢ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/Ongoing_Anime_Flux'>𝐎ɴɢᴏɪɴɢ 𝐅ʟᴜx</a>\n○ 𝐀ɴɪᴍᴇ 𝐂ʜᴀᴛ : <a href='https://t.me/+pFq16XDLXVM1Yzll'>𝐀ɴɪᴍᴇ 𝐂ʜᴀᴛ 𝐅ʟᴜx</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
