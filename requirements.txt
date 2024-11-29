@@ -1,11 +1,11 @@
-# --- For-Bot-Working --------- #
-git+https://github.com/KurimuzonAkuma/pyrogram
+https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
 TgCrypto
 pyromod==1.5
-# --- For-Database ------------ #
 pymongo
 dnspython
-# --- For-Web-Response ------- #
-Flask==2.2.2
+aiohttp
+Flask==1.1.2
 gunicorn==20.1.0
-aiohttp==3.10.5
+Jinja2==3.0.3
+werkzeug==2.0.2
+itsdangerous==2.0.1
